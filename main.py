@@ -1,7 +1,6 @@
 import pandas as pd 
 import numpy as np
 import streamlit as st
-from google.cloud import bigquery
 import datetime
 import plotly.express as px
 st.set_page_config(layout="wide")

@@ -13,8 +13,7 @@ mi_variants = st.number_input('Insert Number of Variation',value = 2,step = 1)
 manual_input_columns = st.columns(2) 
 mi_sample_size_dict = {}
 mi_sample_conversion_dict = {}
-    # mi_sample_size_dict[variant] = 
-    # mi_sample_conversion_dict[variant] = 
+ 
 with manual_input_columns[0]:
     for variant in range(0,mi_variants):
         if variant == 0:

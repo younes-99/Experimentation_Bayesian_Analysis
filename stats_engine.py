@@ -1,16 +1,9 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
-import scipy
 import stats
 from functools import reduce
-from tabulate import tabulate
-import matplotlib.ticker as mtick
-import matplotlib.patches as mpatches
-from scipy.stats import norm
 import streamlit as st
 import altair as alt
-import math
 
 
 class mvt_bayesian_calculator_manual:

@@ -1,23 +1,9 @@
 import pandas as pd 
 import numpy as np
 import streamlit as st
-import plotly.express as px
 st.set_page_config(layout="wide")
-import seaborn
 import matplotlib
-from millify import millify
-import scipy
-import plotly.figure_factory as ff
-import stats
-from functools import reduce
-from tabulate import tabulate
-import matplotlib.ticker as mtick
-from streamlit_extras.metric_cards import style_metric_cards
 from stats_engine import mvt_bayesian_calculator_manual
-from streamlit_ace import st_ace
-from scipy.stats import chisquare
-dojo_colours = ('#00A699','#FF4655','#FFB100','#860053','#26D07C','#7084FF','#262626')
-seaborn.set_palette(seaborn.color_palette(dojo_colours))
 
 
 

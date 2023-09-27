@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 st.set_page_config(layout="wide")
-import matplotlib
 from stats_engine import mvt_bayesian_calculator_manual
 
 
